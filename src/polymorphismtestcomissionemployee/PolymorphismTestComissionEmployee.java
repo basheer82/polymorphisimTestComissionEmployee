@@ -67,7 +67,7 @@ public class PolymorphismTestComissionEmployee extends Object {
         // TODO code application logic here
     
     
-            PolymorphismTestComissionEmployee Employee = new ComissionEmployee("Bob", "Lewis", "333-33-3333");
+            PolymorphismTestComissionEmployee Employee = new ComissionEmployee("Bob", "Lewis", "333-33-3333", 0.1, 3000.0);
         
             System.out.printf("%s%n",Employee.toString());
     
